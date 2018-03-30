@@ -1,0 +1,91 @@
+body * {
+    font-family: "Roboto", serif;
+}
+
+header {
+    background: URL('coffee-small.jpg') fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-center {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.banner-underline {
+    border: 3px solid #F15025;
+    margin: 0px auto 20px;
+    width: 300px;
+}
+
+.banner-center a {
+    border: 3px solid whitesmoke;
+    border-radius: 20px;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px auto;
+    text-decoration: none;
+    width: 300px;
+}
+
+.banner-center a:hover,
+.banner a:focus {
+    color: #F15025;
+    background-color: whitesmoke;
+}
+
+.title {
+    margin: 20px 0;
+}
+
+.title-underline {
+    border: 3px solid #F15025;
+    margin: 0px auto 10px auto;
+    width: 150px;
+}
+
+#skills {
+    color: #2D3142;
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+#skills .fa {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+#skills a {
+    background-color: #F15025;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#skills a:hover {
+    background-color: #CED0CE;
+}
+
+/* About */
+
+#about {
+    background-color: #2D3142;
+}
+
+#about .pic {
+    background: URL('coffee-2-small.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #2D3142;
+    height: 600px;
+}
