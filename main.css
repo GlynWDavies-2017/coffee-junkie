@@ -2,6 +2,27 @@ body * {
     font-family: "Roboto", serif;
 }
 
+/* Navbar */
+
+.transparent {
+    background: RGBA(0,0,0,0.5);
+}
+
+.navbar-toggler-icon {
+    background-color: #F15025;
+    border: 5px solid #000000;
+    padding: 30px;
+
+}
+
+.nav-link, .navbar-brand {
+    color: #F15025 !important;
+}
+
+.navbar a:hover {
+    color: whitesmoke !important;
+}
+
 header {
     background: URL('coffee-small.jpg') fixed;
     background-position: center;
@@ -88,4 +109,64 @@ header {
     border-bottom: 600px solid transparent;
     border-left: 100px solid #2D3142;
     height: 600px;
+}
+
+#about .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Contact */
+
+#contact {
+    background: whitesmoke;
+    padding: 40px;
+}
+
+#contact .form-control {
+    border-radius: 0px !important;
+    font-size: 20px;
+}
+
+#contact button {
+    background-color: #353531;
+    color: #F15025;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact button:hover {
+    background-color: #CED0CE;
+}
+
+/* Footer */
+
+#footer {
+    background-color: #353531;
+    color: whitesmoke;
+    padding: 40px;
+}
+
+#footer .title-underline {
+    margin-bottom: 40px;
+}
+
+#footer .footer-icons {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+#footer .footer-icons a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+    color: #F15025;
+}
+
+#footer .copyrights h3 {
+    color: #CED0CE;
+    padding: 40px 0px;
 }
